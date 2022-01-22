@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 139, 100);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: white;
+}
+
+.center {
+    margin: 25%;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(244, 250, 245);
+}
+
+nav {
+    background-image: linear-gradient(rgb(205, 104, 251), rgb(160, 59, 207), rgb(104, 8, 133));
+    height: 10%;
+    width: 100%;
+}
+
+label.logo {
+    color: rgb(244, 250, 245);
+    font-size: 22px;
+    line-height: 75%;
+    padding: 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: sandybrown;
+    font-size: 10px;
+    padding: 1px 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: rgb(103, 1, 187);
+    transition: .5s;
+}
+
+.checkbox {
+    font-size: 30px;
+    color: powderblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+#reset {
+    color: rgb(144, 62, 199);
+    cursor: pointer;
+    background-color: turquoise;
+    border-color: turquoise;
+    width: 70px;
+    height: 20px;
+    border-width: 4px;
+    border-radius: 20px;
+
+}
+
+#autoClicker {
+    color: rgb(144, 62, 199);
+    cursor: pointer;
+    background-color: turquoise;
+    border-color: turquoise;
+    width: 100px;
+    height: 20px;
+    border-width: 4px;
+    border-radius: 20px;
+
+}
+
+#donutMultiplier {
+    color: rgb(144, 62, 199);
+    cursor: pointer;
+    background-color: turquoise;
+    border-color: turquoise;
+    width: 100px;
+    height: 20px;
+    border-width: 4px;
+    border-radius: 20px;
+
+
+}
+
+#reset:hover {
+    background-color: rgb(51, 190, 200);
+}
+
+#autoClicker:hover {
+    background-color: rgb(51, 190, 200);
+}
+
+#donutMultiplier:hover {
+    background-color: rgb(51, 190, 200);
+}
+
+#donut {
+    cursor: pointer;
+}
+
+#dTypes {
+    width: 500px;
+    height: 500px;
+}
+
+.comment-box {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+.comment-box input {
+    width: 65%;
+    height: px;
+    padding: 0;
+}
